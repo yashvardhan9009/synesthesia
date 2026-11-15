@@ -1,0 +1,455 @@
+{
+  "title": "Simulation, not human data",
+  "generatedAt": "2026-11-15T11:04:14.774Z",
+  "dataSource": "NASA POWER daily through the local cached API proxy",
+  "trials": 500,
+  "qualifyingStimuli": {
+    "unusual": 24,
+    "normal": 24,
+    "candidates": 48,
+    "places": 16,
+    "years": "2001–2025"
+  },
+  "mapping": "Scientific Mode buildSoundscape pitch sequence compared with a second sequence built from same-calendar-day POWER baseline medians.",
+  "observer": "Maximum five-day mean absolute pitch deviation; independent zero-mean Gaussian noise with 0.45 semitone standard deviation added per day; larger evidence chooses the unusual clip.",
+  "metrics": {
+    "accuracy": 0.916,
+    "hitRate": 0.9151696606786427,
+    "falseAlarmRate": 0.08483033932135728,
+    "dPrime": 2.0996880332658585
+  },
+  "stimulusFeatures": [
+    {
+      "id": "buenos-mar23",
+      "place": "Buenos Aires",
+      "start": "2023-03-01",
+      "end": "2023-03-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.261051433929304,
+      "pitchEvidence": 3.8206668613586805
+    },
+    {
+      "id": "chicago-aug04",
+      "place": "Chicago",
+      "start": "2004-08-01",
+      "end": "2004-08-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.0654930819472734,
+      "pitchEvidence": 3.17941767914119
+    },
+    {
+      "id": "delhi-jan07",
+      "place": "New Delhi",
+      "start": "2007-01-01",
+      "end": "2007-01-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.924129215504029,
+      "pitchEvidence": 3.5303976807402564
+    },
+    {
+      "id": "delhi-jul02",
+      "place": "New Delhi",
+      "start": "2002-07-01",
+      "end": "2002-07-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.4581391967374038,
+      "pitchEvidence": 3.4777502507030045
+    },
+    {
+      "id": "delhi-may21",
+      "place": "New Delhi",
+      "start": "2021-05-01",
+      "end": "2021-05-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 4.079199771541409,
+      "pitchEvidence": 4.060903978392166
+    },
+    {
+      "id": "lagos-aug21",
+      "place": "Lagos",
+      "start": "2021-08-01",
+      "end": "2021-08-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.727701479526833,
+      "pitchEvidence": 1.3630066361211735
+    },
+    {
+      "id": "lagos-jan15",
+      "place": "Lagos",
+      "start": "2015-01-01",
+      "end": "2015-01-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.5626559695423103,
+      "pitchEvidence": 2.3357189863007077
+    },
+    {
+      "id": "manaus-dec15",
+      "place": "Manaus",
+      "start": "2015-12-01",
+      "end": "2015-12-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 5.514315254713129,
+      "pitchEvidence": 2.3995877213083134
+    },
+    {
+      "id": "manaus-jul10",
+      "place": "Manaus",
+      "start": "2010-07-01",
+      "end": "2010-07-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.609587211056122,
+      "pitchEvidence": 0.7375925042012024
+    },
+    {
+      "id": "manaus-jul25",
+      "place": "Manaus",
+      "start": "2025-07-01",
+      "end": "2025-07-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 4.701062390595384,
+      "pitchEvidence": 1.358033406253051
+    },
+    {
+      "id": "moscow-dec12",
+      "place": "Moscow",
+      "start": "2012-12-01",
+      "end": "2012-12-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.995822269545939,
+      "pitchEvidence": 8.14754623893335
+    },
+    {
+      "id": "moscow-jan06",
+      "place": "Moscow",
+      "start": "2006-01-01",
+      "end": "2006-01-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.043411216286144,
+      "pitchEvidence": 8.630974194540062
+    },
+    {
+      "id": "nairobi-oct24",
+      "place": "Nairobi",
+      "start": "2024-10-01",
+      "end": "2024-10-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.3775103996422273,
+      "pitchEvidence": 0.9519899311862596
+    },
+    {
+      "id": "nuuk-feb08",
+      "place": "Nuuk",
+      "start": "2008-02-01",
+      "end": "2008-03-01",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.8561258064670296,
+      "pitchEvidence": 6.688870027187411
+    },
+    {
+      "id": "nuuk-sep22",
+      "place": "Nuuk",
+      "start": "2022-09-01",
+      "end": "2022-09-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.0566196322843573,
+      "pitchEvidence": 2.42502207736453
+    },
+    {
+      "id": "paris-aug20",
+      "place": "Paris",
+      "start": "2020-08-01",
+      "end": "2020-08-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.343958156932563,
+      "pitchEvidence": 4.181077898620395
+    },
+    {
+      "id": "phoenix-jan13",
+      "place": "Phoenix",
+      "start": "2013-01-01",
+      "end": "2013-01-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.2018003259600816,
+      "pitchEvidence": 4.430585599057563
+    },
+    {
+      "id": "reykjavik-apr15",
+      "place": "Reykjavik",
+      "start": "2015-04-01",
+      "end": "2015-04-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.790418449125603,
+      "pitchEvidence": 2.761856923488039
+    },
+    {
+      "id": "reykjavik-aug04",
+      "place": "Reykjavik",
+      "start": "2004-08-01",
+      "end": "2004-08-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.914578650285624,
+      "pitchEvidence": 2.137210048564498
+    },
+    {
+      "id": "reykjavik-may25",
+      "place": "Reykjavik",
+      "start": "2025-05-01",
+      "end": "2025-05-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.2086361326333206,
+      "pitchEvidence": 3.089771330376252
+    },
+    {
+      "id": "sydney-jul07",
+      "place": "Sydney",
+      "start": "2007-07-01",
+      "end": "2007-07-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 2.710298766018659,
+      "pitchEvidence": 1.848509832643249
+    },
+    {
+      "id": "sydney-sep23",
+      "place": "Sydney",
+      "start": "2023-09-01",
+      "end": "2023-09-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.528544234993967,
+      "pitchEvidence": 2.93597683038919
+    },
+    {
+      "id": "taman-sep24",
+      "place": "Tamanrasset",
+      "start": "2024-09-01",
+      "end": "2024-09-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.4103763676906906,
+      "pitchEvidence": 2.0886871849633666
+    },
+    {
+      "id": "ulaan-jan01",
+      "place": "Ulaanbaatar",
+      "start": "2001-01-01",
+      "end": "2001-01-30",
+      "classification": "unusual",
+      "maxAbsFiveDayRobustZ": 3.1226559918666803,
+      "pitchEvidence": 5.26199087936276
+    },
+    {
+      "id": "buenos-apr19",
+      "place": "Buenos Aires",
+      "start": "2019-04-01",
+      "end": "2019-04-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.4778388094557262,
+      "pitchEvidence": 1.2323507014692674
+    },
+    {
+      "id": "buenos-jun14",
+      "place": "Buenos Aires",
+      "start": "2014-06-01",
+      "end": "2014-06-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5419615066097386,
+      "pitchEvidence": 1.1949513874821966
+    },
+    {
+      "id": "cape-dec16",
+      "place": "Cape Town",
+      "start": "2016-12-01",
+      "end": "2016-12-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.4925819374012481,
+      "pitchEvidence": 0.7628907417517125
+    },
+    {
+      "id": "cape-jan10",
+      "place": "Cape Town",
+      "start": "2010-01-01",
+      "end": "2010-01-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5184188587443801,
+      "pitchEvidence": 1.044281952167362
+    },
+    {
+      "id": "chicago-feb10",
+      "place": "Chicago",
+      "start": "2010-02-01",
+      "end": "2010-03-02",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.3740881249279121,
+      "pitchEvidence": 1.0352353398344907
+    },
+    {
+      "id": "delhi-jul01",
+      "place": "New Delhi",
+      "start": "2001-07-01",
+      "end": "2001-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.3757251679780359,
+      "pitchEvidence": 0.9832956620499506
+    },
+    {
+      "id": "lagos-aug25",
+      "place": "Lagos",
+      "start": "2025-08-01",
+      "end": "2025-08-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.3609248299037742,
+      "pitchEvidence": 0.8635738273121849
+    },
+    {
+      "id": "lagos-jul10",
+      "place": "Lagos",
+      "start": "2010-07-01",
+      "end": "2010-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5895880802393397,
+      "pitchEvidence": 0.942179921497253
+    },
+    {
+      "id": "manaus-aug09",
+      "place": "Manaus",
+      "start": "2009-08-01",
+      "end": "2009-08-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.3499220781497705,
+      "pitchEvidence": 0.7005949990117635
+    },
+    {
+      "id": "manaus-may14",
+      "place": "Manaus",
+      "start": "2014-05-01",
+      "end": "2014-05-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.40824904840943804,
+      "pitchEvidence": 0.5048710650199582
+    },
+    {
+      "id": "moscow-sep11",
+      "place": "Moscow",
+      "start": "2011-09-01",
+      "end": "2011-09-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5607849533317019,
+      "pitchEvidence": 1.3443564679723317
+    },
+    {
+      "id": "nairobi-jan13",
+      "place": "Nairobi",
+      "start": "2013-01-01",
+      "end": "2013-01-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.6264519193246927,
+      "pitchEvidence": 0.9194837940225844
+    },
+    {
+      "id": "nuuk-mar17",
+      "place": "Nuuk",
+      "start": "2017-03-01",
+      "end": "2017-03-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5568099340632967,
+      "pitchEvidence": 1.865219211186762
+    },
+    {
+      "id": "paris-jul20",
+      "place": "Paris",
+      "start": "2020-07-01",
+      "end": "2020-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.4356639091260008,
+      "pitchEvidence": 1.1783302726184801
+    },
+    {
+      "id": "paris-jul21",
+      "place": "Paris",
+      "start": "2021-07-01",
+      "end": "2021-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.582451312198433,
+      "pitchEvidence": 1.6141412480705166
+    },
+    {
+      "id": "phoenix-jan22",
+      "place": "Phoenix",
+      "start": "2022-01-01",
+      "end": "2022-01-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.6085114989011096,
+      "pitchEvidence": 1.2058564090638049
+    },
+    {
+      "id": "reykjavik-jan14",
+      "place": "Reykjavik",
+      "start": "2014-01-01",
+      "end": "2014-01-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.31295880873006693,
+      "pitchEvidence": 0.914546673030275
+    },
+    {
+      "id": "sydney-feb07",
+      "place": "Sydney",
+      "start": "2007-02-01",
+      "end": "2007-03-02",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5250973474326528,
+      "pitchEvidence": 1.2312332461321247
+    },
+    {
+      "id": "sydney-may03",
+      "place": "Sydney",
+      "start": "2003-05-01",
+      "end": "2003-05-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5425606104531777,
+      "pitchEvidence": 0.8861206677214254
+    },
+    {
+      "id": "taman-jan18",
+      "place": "Tamanrasset",
+      "start": "2018-01-01",
+      "end": "2018-01-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5955038296890494,
+      "pitchEvidence": 1.0783308916537429
+    },
+    {
+      "id": "tokyo-jul02",
+      "place": "Tokyo",
+      "start": "2002-07-01",
+      "end": "2002-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5392586070065155,
+      "pitchEvidence": 1.0534962406035269
+    },
+    {
+      "id": "tokyo-jul21",
+      "place": "Tokyo",
+      "start": "2021-07-01",
+      "end": "2021-07-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.49111604553375054,
+      "pitchEvidence": 0.867500922819388
+    },
+    {
+      "id": "ulaan-apr16",
+      "place": "Ulaanbaatar",
+      "start": "2016-04-01",
+      "end": "2016-04-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5483980893084045,
+      "pitchEvidence": 1.6316615889060748
+    },
+    {
+      "id": "ulaan-nov11",
+      "place": "Ulaanbaatar",
+      "start": "2011-11-01",
+      "end": "2011-11-30",
+      "classification": "normal",
+      "maxAbsFiveDayRobustZ": 0.5042835020893179,
+      "pitchEvidence": 1.9389670559595005
+    }
+  ]
+}

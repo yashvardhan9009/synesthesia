@@ -1,0 +1,12 @@
+node_modules/
+frontend/dist/
+frontend/node_modules/
+backend/.venv/
+backend/cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+shot.tmp.mjs
+artifacts/raw/
+*.tmp.mjs
